@@ -1126,14 +1126,6 @@ function showItemDetail(item) {
         elements.modalWikiLink.style.display = 'none';
     }
 
-    // Set item search link (search by item name)
-    if (item.Name && elements.modalItemSearchLink) {
-        elements.modalItemSearchLink.href = `https://day90455.github.io/ffxiv-item-search-tc/?q=${encodeURIComponent(item.Name)}`;
-        elements.modalItemSearchLink.style.display = '';
-    } else if (elements.modalItemSearchLink) {
-        elements.modalItemSearchLink.style.display = 'none';
-    }
-
     // Render hairstyle race previews
     const hairstylePreviewsEl = document.getElementById('hairstyle-previews');
     if (currentCollection === 'Hairstyles' && item.SpriteUrl) {
