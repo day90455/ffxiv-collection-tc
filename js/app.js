@@ -1128,7 +1128,7 @@ function showItemDetail(item) {
 
     // Set item search link (search by item name)
     if (item.Name && elements.modalItemSearchLink) {
-        elements.modalItemSearchLink.href = `https://cycleapple.github.io/ffxiv-item-search-tc/?q=${encodeURIComponent(item.Name)}`;
+        elements.modalItemSearchLink.href = `https://day90455.github.io/ffxiv-item-search-tc/?q=${encodeURIComponent(item.Name)}`;
         elements.modalItemSearchLink.style.display = '';
     } else if (elements.modalItemSearchLink) {
         elements.modalItemSearchLink.style.display = 'none';
