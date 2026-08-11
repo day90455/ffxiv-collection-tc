@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://cycleapple.github.io/ffxiv-collection-tc/sitemap.xml
+Sitemap: https://day90455.github.io/ffxiv-collection-tc/sitemap.xml
