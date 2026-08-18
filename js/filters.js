@@ -59,7 +59,7 @@ function getIconUrl(iconId) {
     const folder = Math.floor(iconId / 1000) * 1000;
     const folderStr = folder.toString().padStart(6, '0');
     const iconStr = iconId.toString().padStart(6, '0');
-    return 'https://v2.xivapi.com/api/asset?path=ui%2Ficon%2F${folderStr}%2F${iconStr}_hr1.tex&format=png';
+    return `https://v2.xivapi.com/api/asset?path=ui%2Ficon%2F${folderStr}%2F${iconStr}_hr1.tex&format=png`;
 }
 
 // Owned items localStorage management
