@@ -224,7 +224,8 @@ async function init() {
 
     // Set up event listeners
     setupEventListeners();
-
+    elements.showNoSourceToggle.checked = true;
+    
     // Set up progress exclude category callback
     onProgressExcludeCategoryChange = function(category) {
         filterState.toggleExcludeCategory(category);
