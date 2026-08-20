@@ -296,7 +296,9 @@ class FilterState {
 // Check if an item should be excluded from progress calculation
 function shouldExcludeFromProgress(item, excludeCategories) {
     // No sources = exclude
-    if (!item.Sources || item.Sources.length === 0) return true;
+    if (!filterState.showNoSource) {
+        if (!item.Sources || item.Sources.length === 0) return true;
+    }
     // No exclusions = include all
     if (!excludeCategories || excludeCategories.size === 0) return false;
 
