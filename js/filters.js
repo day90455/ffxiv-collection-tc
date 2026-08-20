@@ -100,7 +100,7 @@ class FilterState {
         this.activeCategories = new Set();
         this.activePatches = new Set();
         this.searchQuery = '';
-        this.showNoSource = true; // 預設隱藏無來源項目
+        this.showNoSource = false; // 預設隱藏無來源項目
         this.ownershipFilter = 'all'; // 'all' | 'owned' | 'not-owned'
         this.excludeCategories = new Set(); // 進度計算排除的分類
     }
