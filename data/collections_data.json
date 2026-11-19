@@ -6,6 +6,36 @@
       "OrderKey": 1,
       "Items": [
         {
+          "Id": 419,
+          "Name": "Starlight Sleigh",
+          "Description": "Summon forth your Starlight sleigh. Comes complete with a reindeer to draw you forth in festive cheer.",
+          "PatchAdded": 7.58,
+          "DisplayPatch": "7.58",
+          "IconId": 4359,
+          "IconUrl": "https://v2.xivapi.com/api/asset?path=ui%2Ficon%2F004000%2F004359_hr1.tex&format=png",
+          "Sources": [
+            {
+              "Type": "Event",
+              "Name": "The Starlight Celebration (2026)"
+            }
+          ]
+        },
+        {
+          "Id": 430,
+          "Name": "Magitek Scorpion",
+          "Description": "Call into action your magitek scorpion. Bears no armaments, so poses no danger whether its tail is up or down.",
+          "PatchAdded": 7.57,
+          "DisplayPatch": "7.57",
+          "IconId": 4361,
+          "IconUrl": "https://v2.xivapi.com/api/asset?path=ui%2Ficon%2F004000%2F004361_hr1.tex&format=png",
+          "Sources": [
+            {
+              "Type": "Gold Saucer",
+              "Name": "430 MGC"
+            }
+          ]
+        },
+        {
           "Id": 367,
           "Name": "Tourmaline Golem",
           "Description": "Summon forth your tourmaline golem, and make yourself the envy of gemstone collectors.",
@@ -66,6 +96,21 @@
           ]
         },
         {
+          "Id": 414,
+          "Name": "Uolon",
+          "Description": "Summon forth your uolon, a great big beast that tends the forest with a great big grin.",
+          "PatchAdded": 7.56,
+          "DisplayPatch": "7.56",
+          "IconId": 4335,
+          "IconUrl": "https://v2.xivapi.com/api/asset?path=ui%2Ficon%2F004000%2F004335_hr1.tex&format=png",
+          "Sources": [
+            {
+              "Type": "Event",
+              "Name": "Moogle Treasure Trove Event"
+            }
+          ]
+        },
+        {
           "Id": 437,
           "Name": "Duck-billed Porter",
           "Description": "Summon forth your duck-billed porter. Has retired from locksmithing, so won't be opening any locks for you.",
@@ -104,21 +149,6 @@
             {
               "Type": "Occult Crescent",
               "Name": "North Horn - Bronze/Silver Coffer"
-            }
-          ]
-        },
-        {
-          "Id": 430,
-          "Name": "Magitek Scorpion",
-          "Description": "Call into action your magitek scorpion. Bears no armaments, so poses no danger whether its tail is up or down.",
-          "PatchAdded": 7.55,
-          "DisplayPatch": "7.55",
-          "IconId": 4361,
-          "IconUrl": "https://v2.xivapi.com/api/asset?path=ui%2Ficon%2F004000%2F004361_hr1.tex&format=png",
-          "Sources": [
-            {
-              "Type": "Gold Saucer",
-              "Name": "430 MGC"
             }
           ]
         },
@@ -243,21 +273,6 @@
             {
               "Type": "Cosmic Exploration",
               "Name": "Gold Ancient Record - Auxesia"
-            }
-          ]
-        },
-        {
-          "Id": 419,
-          "Name": "Starlight Sleigh",
-          "Description": "Summon forth your Starlight sleigh. Comes complete with a reindeer to draw you forth in festive cheer.",
-          "PatchAdded": 7.5,
-          "DisplayPatch": "7.5",
-          "IconId": 4359,
-          "IconUrl": "https://v2.xivapi.com/api/asset?path=ui%2Ficon%2F004000%2F004359_hr1.tex&format=png",
-          "Sources": [
-            {
-              "Type": "Event",
-              "Name": "The Starlight Celebration (2026)"
             }
           ]
         },
@@ -465,21 +480,6 @@
           ]
         },
         {
-          "Id": 414,
-          "Name": "Uolon",
-          "Description": "Summon forth your uolon, a great big beast that tends the forest with a great big grin.",
-          "PatchAdded": 7.4,
-          "DisplayPatch": "7.4",
-          "IconId": 4335,
-          "IconUrl": "https://v2.xivapi.com/api/asset?path=ui%2Ficon%2F004000%2F004335_hr1.tex&format=png",
-          "Sources": [
-            {
-              "Type": "Event",
-              "Name": "Moogle Treasure Trove Event"
-            }
-          ]
-        },
-        {
           "Id": 413,
           "Name": "Lowrider T1RANT",
           "Description": "Call into battle your Lowrider T1RANT, and rule the roads with an iron fist (around the custom leather-bound steering wheel).",
@@ -613,8 +613,8 @@
         },
         {
           "Id": 396,
-          "Name": "Ambulario",
-          "Description": "Summon forth your Ambulario, and ride in the delightfully fiendish spirit of All Saints' Wake.",
+          "Name": "南瓜行者",
+          "Description": "騎上南瓜行者。 以大陸馬戲團團長為原型製作的魔法人偶。",
           "PatchAdded": 7.35,
           "DisplayPatch": "7.35",
           "IconId": 4320,
@@ -623,6 +623,10 @@
             {
               "Type": "Event",
               "Name": "All Saints' Wake (2025)"
+            },
+            {
+              "Type": "Premium",
+              "Name": "線上商店"
             }
           ]
         },
@@ -662,8 +666,8 @@
         },
         {
           "Id": 402,
-          "Name": "Cosmoboard",
-          "Description": "Deploy your cosmoboard, and shred up the cosmos (figuratively) wherever you go.",
+          "Name": "宇宙滑板",
+          "Description": "乘上宇宙滑板。 以最新技術開發的浮空滑板。",
           "PatchAdded": 7.31,
           "DisplayPatch": "7.31",
           "IconId": 4326,
@@ -677,8 +681,8 @@
         },
         {
           "Id": 401,
-          "Name": "Interstellar Dhalmel",
-          "Description": "Summon forth your interstellar dhalmel, and ride it boldly where no dhalmel has gone before.",
+          "Name": "宇宙長頸駝",
+          "Description": "騎上宇宙長頸駝。 參加了異星環境適應實驗的長頸駝。",
           "PatchAdded": 7.31,
           "DisplayPatch": "7.31",
           "IconId": 4325,
@@ -692,8 +696,8 @@
         },
         {
           "Id": 386,
-          "Name": "Warp Loader",
-          "Description": "Call into action your warp loader, and bulldoze your way through life.",
+          "Name": "輪式鏟裝車",
+          "Description": "搭乘輪式鏟裝車。 專門為宇宙探索計畫開發的重型鏟裝車。",
           "PatchAdded": 7.31,
           "DisplayPatch": "7.31",
           "IconId": 4309,
@@ -711,8 +715,8 @@
         },
         {
           "Id": 407,
-          "Name": "Wings of Death",
-          "Description": "Manifest your wings of death. Their somber hue exudes a sense of impending doom.",
+          "Name": "死亡之翼",
+          "Description": "召喚出死亡之翼。 在中央終端內發現的魔法之翼。",
           "PatchAdded": 7.3,
           "DisplayPatch": "7.3",
           "IconId": 4328,
@@ -720,14 +724,14 @@
           "Sources": [
             {
               "Type": "Trial",
-              "Name": "The Minstrel's Ballad: Necron's Embrace"
+              "Name": "極 永恆黑暗殲滅戰"
             }
           ]
         },
         {
           "Id": 400,
-          "Name": "Yan",
-          "Description": "Summon forth your yan, a sheep spirit whose disarmingly adorable appearance belies its tremendous might.",
+          "Name": "羊",
+          "Description": "騎上羊。 誕生於異界的小精靈羊。羊不可貌相，力量驚人。",
           "PatchAdded": 7.3,
           "DisplayPatch": "7.3",
           "IconId": 4324,
@@ -735,14 +739,14 @@
           "Sources": [
             {
               "Type": "Treasure Hunt",
-              "Name": "Vault Oneiron"
+              "Name": "尋夢金庫"
             }
           ]
         },
         {
           "Id": 397,
-          "Name": "Shagcoat Cat",
-          "Description": "Summon forth your shagcoat cat, a gigantic-yet-gentle feline with a penchant for sporting a blue bow tie.",
+          "Name": "蓬鬆絨毛貓",
+          "Description": "騎上蓬鬆絨毛貓。 原產於圖拉爾大陸的巨型貓咪，藍色的緞帶是牠的最愛。",
           "PatchAdded": 7.3,
           "DisplayPatch": "7.3",
           "IconId": 4321,
@@ -5793,8 +5797,8 @@
         },
         {
           "Id": 151,
-          "Name": "雷格里亞 TYPE-G",
-          "Description": "搭乘雷格里亞 TYPE-G。 加隆德煉鐵廠製造的仿製車輛。",
+          "Name": "雷格里亞TYPE-G",
+          "Description": "搭乘雷格里亞TYPE-G。 加隆德煉鐵廠製造的仿製車輛。",
           "PatchAdded": 4.5,
           "DisplayPatch": "4.5",
           "IconId": 4138,
@@ -9862,6 +9866,21 @@
       "OrderKey": 11,
       "Items": [
         {
+          "Id": 55,
+          "Name": "Avalanche Gatling Gun",
+          "Description": "A sleek, rapid-fire weapon, modeled after the one wielded by a fearless hero of legend. Use to acquire an Avalanche Gatling gun.",
+          "PatchAdded": 7.57,
+          "DisplayPatch": "7.57",
+          "IconId": 8054,
+          "IconUrl": "https://v2.xivapi.com/api/asset?path=ui%2Ficon%2F008000%2F008054_hr1.tex&format=png",
+          "Sources": [
+            {
+              "Type": "Gold Saucer",
+              "Name": "430 MGC"
+            }
+          ]
+        },
+        {
           "Id": 56,
           "Name": "Pitchfork",
           "Description": "Useful for farming and demanding your basic rights. Use to acquire a pitchfork.",
@@ -9892,21 +9911,6 @@
             {
               "Type": "Occult Crescent",
               "Name": "North Horn - Pot/Bunny Coffer"
-            }
-          ]
-        },
-        {
-          "Id": 55,
-          "Name": "Avalanche Gatling Gun",
-          "Description": "A sleek, rapid-fire weapon, modeled after the one wielded by a fearless hero of legend. Use to acquire an Avalanche Gatling gun.",
-          "PatchAdded": 7.55,
-          "DisplayPatch": "7.55",
-          "IconId": 8054,
-          "IconUrl": "https://v2.xivapi.com/api/asset?path=ui%2Ficon%2F008000%2F008054_hr1.tex&format=png",
-          "Sources": [
-            {
-              "Type": "Gold Saucer",
-              "Name": "430 MGC"
             }
           ]
         },
@@ -10021,8 +10025,8 @@
         },
         {
           "Id": 48,
-          "Name": "Torch",
-          "Description": "Ideal for adventurers who like their light sources accompanied by the scent of burning pine sap. Use to acquire a torch.",
+          "Name": "火把",
+          "Description": "使用後可習得火把。",
           "PatchAdded": 7.3,
           "DisplayPatch": "7.3",
           "IconId": 8047,
@@ -10034,7 +10038,7 @@
             },
             {
               "Type": "Treasure Hunt",
-              "Name": "Vault Oneiron"
+              "Name": "尋夢金庫"
             }
           ]
         },
@@ -10150,7 +10154,7 @@
             },
             {
               "Type": "Treasure Hunt",
-              "Name": "Vault Oneiron"
+              "Name": "尋夢金庫"
             }
           ]
         },
@@ -11151,6 +11155,201 @@
       "OrderKey": 8,
       "Items": [
         {
+          "Id": 888,
+          "Name": "Primal Judgment - De Novo (Back in the Ring)",
+          "Description": "Available for purchase on the online store or via promotional bonuses.",
+          "PatchAdded": 7.57,
+          "DisplayPatch": "7.57",
+          "IconId": 25945,
+          "IconUrl": "https://v2.xivapi.com/api/asset?path=ui%2Ficon%2F025000%2F025945_hr1.tex&format=png",
+          "Sources": [
+            {
+              "Type": "Premium",
+              "Name": "Online Store - THE PRIMALS Back in the Ring Set"
+            }
+          ]
+        },
+        {
+          "Id": 887,
+          "Name": "Smile (Back in the Ring)",
+          "Description": "Available for purchase on the online store or via promotional bonuses.",
+          "PatchAdded": 7.57,
+          "DisplayPatch": "7.57",
+          "IconId": 25945,
+          "IconUrl": "https://v2.xivapi.com/api/asset?path=ui%2Ficon%2F025000%2F025945_hr1.tex&format=png",
+          "Sources": [
+            {
+              "Type": "Premium",
+              "Name": "Online Store - THE PRIMALS Back in the Ring Set"
+            }
+          ]
+        },
+        {
+          "Id": 886,
+          "Name": "Absolute Tyranny (Back in the Ring)",
+          "Description": "Available for purchase on the online store or via promotional bonuses.",
+          "PatchAdded": 7.57,
+          "DisplayPatch": "7.57",
+          "IconId": 25945,
+          "IconUrl": "https://v2.xivapi.com/api/asset?path=ui%2Ficon%2F025000%2F025945_hr1.tex&format=png",
+          "Sources": [
+            {
+              "Type": "Premium",
+              "Name": "Online Store - THE PRIMALS Back in the Ring Set"
+            }
+          ]
+        },
+        {
+          "Id": 885,
+          "Name": "The Mirror (Back in the Ring)",
+          "Description": "Available for purchase on the online store or via promotional bonuses.",
+          "PatchAdded": 7.57,
+          "DisplayPatch": "7.57",
+          "IconId": 25945,
+          "IconUrl": "https://v2.xivapi.com/api/asset?path=ui%2Ficon%2F025000%2F025945_hr1.tex&format=png",
+          "Sources": [
+            {
+              "Type": "Premium",
+              "Name": "Online Store - THE PRIMALS Back in the Ring Set"
+            }
+          ]
+        },
+        {
+          "Id": 884,
+          "Name": "Sinister (Back in the Ring)",
+          "Description": "Available for purchase on the online store or via promotional bonuses.",
+          "PatchAdded": 7.57,
+          "DisplayPatch": "7.57",
+          "IconId": 25945,
+          "IconUrl": "https://v2.xivapi.com/api/asset?path=ui%2Ficon%2F025000%2F025945_hr1.tex&format=png",
+          "Sources": [
+            {
+              "Type": "Premium",
+              "Name": "Online Store - THE PRIMALS Back in the Ring Set"
+            }
+          ]
+        },
+        {
+          "Id": 883,
+          "Name": "Roses of May (Till Dawn My Tears Flow)",
+          "Description": "Available for purchase on the online store or via promotional bonuses.",
+          "PatchAdded": 7.57,
+          "DisplayPatch": "7.57",
+          "IconId": 25945,
+          "IconUrl": "https://v2.xivapi.com/api/asset?path=ui%2Ficon%2F025000%2F025945_hr1.tex&format=png",
+          "Sources": [
+            {
+              "Type": "Premium",
+              "Name": "Online Store - Till Dawn My Tears Flow Piano Set"
+            }
+          ]
+        },
+        {
+          "Id": 882,
+          "Name": "Promises to Keep (Till Dawn My Tears Flow)",
+          "Description": "Available for purchase on the online store or via promotional bonuses.",
+          "PatchAdded": 7.57,
+          "DisplayPatch": "7.57",
+          "IconId": 25945,
+          "IconUrl": "https://v2.xivapi.com/api/asset?path=ui%2Ficon%2F025000%2F025945_hr1.tex&format=png",
+          "Sources": [
+            {
+              "Type": "Premium",
+              "Name": "Online Store - Till Dawn My Tears Flow Piano Set"
+            }
+          ]
+        },
+        {
+          "Id": 881,
+          "Name": "Bee My Honey (Till Dawn My Tears Flow)",
+          "Description": "Available for purchase on the online store or via promotional bonuses.",
+          "PatchAdded": 7.57,
+          "DisplayPatch": "7.57",
+          "IconId": 25945,
+          "IconUrl": "https://v2.xivapi.com/api/asset?path=ui%2Ficon%2F025000%2F025945_hr1.tex&format=png",
+          "Sources": [
+            {
+              "Type": "Premium",
+              "Name": "Online Store - Till Dawn My Tears Flow Piano Set"
+            }
+          ]
+        },
+        {
+          "Id": 880,
+          "Name": "Morrow's Might & Magic (Till Dawn My Tears Flow)",
+          "Description": "Available for purchase on the online store or via promotional bonuses.",
+          "PatchAdded": 7.57,
+          "DisplayPatch": "7.57",
+          "IconId": 25945,
+          "IconUrl": "https://v2.xivapi.com/api/asset?path=ui%2Ficon%2F025000%2F025945_hr1.tex&format=png",
+          "Sources": [
+            {
+              "Type": "Premium",
+              "Name": "Online Store - Till Dawn My Tears Flow Piano Set"
+            }
+          ]
+        },
+        {
+          "Id": 879,
+          "Name": "Smile (Till Dawn My Tears Flow)",
+          "Description": "Available for purchase on the online store or via promotional bonuses.",
+          "PatchAdded": 7.57,
+          "DisplayPatch": "7.57",
+          "IconId": 25945,
+          "IconUrl": "https://v2.xivapi.com/api/asset?path=ui%2Ficon%2F025000%2F025945_hr1.tex&format=png",
+          "Sources": [
+            {
+              "Type": "Premium",
+              "Name": "Online Store - Till Dawn My Tears Flow Piano Set"
+            }
+          ]
+        },
+        {
+          "Id": 858,
+          "Name": "Fight On!",
+          "Description": "Seasonal event reward.",
+          "PatchAdded": 7.57,
+          "DisplayPatch": "7.57",
+          "IconId": 25945,
+          "IconUrl": "https://v2.xivapi.com/api/asset?path=ui%2Ficon%2F025000%2F025945_hr1.tex&format=png",
+          "Sources": [
+            {
+              "Type": "Gold Saucer",
+              "Name": "190 MGC"
+            }
+          ]
+        },
+        {
+          "Id": 857,
+          "Name": "Let the Battles Begin!",
+          "Description": "Seasonal event reward.",
+          "PatchAdded": 7.57,
+          "DisplayPatch": "7.57",
+          "IconId": 25945,
+          "IconUrl": "https://v2.xivapi.com/api/asset?path=ui%2Ficon%2F025000%2F025945_hr1.tex&format=png",
+          "Sources": [
+            {
+              "Type": "Gold Saucer",
+              "Name": "190 MGC"
+            }
+          ]
+        },
+        {
+          "Id": 856,
+          "Name": "Welcome to the Gold Saucer",
+          "Description": "Seasonal event reward.",
+          "PatchAdded": 7.57,
+          "DisplayPatch": "7.57",
+          "IconId": 25945,
+          "IconUrl": "https://v2.xivapi.com/api/asset?path=ui%2Ficon%2F025000%2F025945_hr1.tex&format=png",
+          "Sources": [
+            {
+              "Type": "Gold Saucer",
+              "Name": "190 MGC"
+            }
+          ]
+        },
+        {
           "Id": 873,
           "Name": "Swiftest Wing",
           "Description": "Available for exchange in the Central Shroud.",
@@ -11206,7 +11405,11 @@
           "Sources": [
             {
               "Type": "Gold Saucer",
-              "Name": "20,000 MGP (Requires Completion of Quest \"Clotted Crime\")"
+              "Name": "20,000 MGP"
+            },
+            {
+              "Type": "Quest",
+              "Name": "Clotted Crime"
             }
           ]
         },
@@ -11283,156 +11486,6 @@
           ]
         },
         {
-          "Id": 888,
-          "Name": "Primal Judgment - De Novo (Back in the Ring)",
-          "Description": "Available for purchase on the online store or via promotional bonuses.",
-          "PatchAdded": 7.55,
-          "DisplayPatch": "7.55",
-          "IconId": 25945,
-          "IconUrl": "https://v2.xivapi.com/api/asset?path=ui%2Ficon%2F025000%2F025945_hr1.tex&format=png",
-          "Sources": [
-            {
-              "Type": "Premium",
-              "Name": "Available for purchase on the online store or via promotional bonuses."
-            }
-          ]
-        },
-        {
-          "Id": 887,
-          "Name": "Smile (Back in the Ring)",
-          "Description": "Available for purchase on the online store or via promotional bonuses.",
-          "PatchAdded": 7.55,
-          "DisplayPatch": "7.55",
-          "IconId": 25945,
-          "IconUrl": "https://v2.xivapi.com/api/asset?path=ui%2Ficon%2F025000%2F025945_hr1.tex&format=png",
-          "Sources": [
-            {
-              "Type": "Premium",
-              "Name": "Available for purchase on the online store or via promotional bonuses."
-            }
-          ]
-        },
-        {
-          "Id": 886,
-          "Name": "Absolute Tyranny (Back in the Ring)",
-          "Description": "Available for purchase on the online store or via promotional bonuses.",
-          "PatchAdded": 7.55,
-          "DisplayPatch": "7.55",
-          "IconId": 25945,
-          "IconUrl": "https://v2.xivapi.com/api/asset?path=ui%2Ficon%2F025000%2F025945_hr1.tex&format=png",
-          "Sources": [
-            {
-              "Type": "Premium",
-              "Name": "Available for purchase on the online store or via promotional bonuses."
-            }
-          ]
-        },
-        {
-          "Id": 885,
-          "Name": "The Mirror (Back in the Ring)",
-          "Description": "Available for purchase on the online store or via promotional bonuses.",
-          "PatchAdded": 7.55,
-          "DisplayPatch": "7.55",
-          "IconId": 25945,
-          "IconUrl": "https://v2.xivapi.com/api/asset?path=ui%2Ficon%2F025000%2F025945_hr1.tex&format=png",
-          "Sources": [
-            {
-              "Type": "Premium",
-              "Name": "Available for purchase on the online store or via promotional bonuses."
-            }
-          ]
-        },
-        {
-          "Id": 884,
-          "Name": "Sinister (Back in the Ring)",
-          "Description": "Available for purchase on the online store or via promotional bonuses.",
-          "PatchAdded": 7.55,
-          "DisplayPatch": "7.55",
-          "IconId": 25945,
-          "IconUrl": "https://v2.xivapi.com/api/asset?path=ui%2Ficon%2F025000%2F025945_hr1.tex&format=png",
-          "Sources": [
-            {
-              "Type": "Premium",
-              "Name": "Available for purchase on the online store or via promotional bonuses."
-            }
-          ]
-        },
-        {
-          "Id": 883,
-          "Name": "Roses of May (Till Dawn My Tears Flow)",
-          "Description": "Available for purchase on the online store or via promotional bonuses.",
-          "PatchAdded": 7.55,
-          "DisplayPatch": "7.55",
-          "IconId": 25945,
-          "IconUrl": "https://v2.xivapi.com/api/asset?path=ui%2Ficon%2F025000%2F025945_hr1.tex&format=png",
-          "Sources": [
-            {
-              "Type": "Premium",
-              "Name": "Available for purchase on the online store or via promotional bonuses."
-            }
-          ]
-        },
-        {
-          "Id": 882,
-          "Name": "Promises to Keep (Till Dawn My Tears Flow)",
-          "Description": "Available for purchase on the online store or via promotional bonuses.",
-          "PatchAdded": 7.55,
-          "DisplayPatch": "7.55",
-          "IconId": 25945,
-          "IconUrl": "https://v2.xivapi.com/api/asset?path=ui%2Ficon%2F025000%2F025945_hr1.tex&format=png",
-          "Sources": [
-            {
-              "Type": "Premium",
-              "Name": "Available for purchase on the online store or via promotional bonuses."
-            }
-          ]
-        },
-        {
-          "Id": 881,
-          "Name": "Bee My Honey (Till Dawn My Tears Flow)",
-          "Description": "Available for purchase on the online store or via promotional bonuses.",
-          "PatchAdded": 7.55,
-          "DisplayPatch": "7.55",
-          "IconId": 25945,
-          "IconUrl": "https://v2.xivapi.com/api/asset?path=ui%2Ficon%2F025000%2F025945_hr1.tex&format=png",
-          "Sources": [
-            {
-              "Type": "Premium",
-              "Name": "Available for purchase on the online store or via promotional bonuses."
-            }
-          ]
-        },
-        {
-          "Id": 880,
-          "Name": "Morrow's Might & Magic (Till Dawn My Tears Flow)",
-          "Description": "Available for purchase on the online store or via promotional bonuses.",
-          "PatchAdded": 7.55,
-          "DisplayPatch": "7.55",
-          "IconId": 25945,
-          "IconUrl": "https://v2.xivapi.com/api/asset?path=ui%2Ficon%2F025000%2F025945_hr1.tex&format=png",
-          "Sources": [
-            {
-              "Type": "Premium",
-              "Name": "Available for purchase on the online store or via promotional bonuses."
-            }
-          ]
-        },
-        {
-          "Id": 879,
-          "Name": "Smile (Till Dawn My Tears Flow)",
-          "Description": "Available for purchase on the online store or via promotional bonuses.",
-          "PatchAdded": 7.55,
-          "DisplayPatch": "7.55",
-          "IconId": 25945,
-          "IconUrl": "https://v2.xivapi.com/api/asset?path=ui%2Ficon%2F025000%2F025945_hr1.tex&format=png",
-          "Sources": [
-            {
-              "Type": "Premium",
-              "Name": "Available for purchase on the online store or via promotional bonuses."
-            }
-          ]
-        },
-        {
           "Id": 867,
           "Name": "Zanarkand (Modulation)",
           "Description": "Seasonal event reward.",
@@ -11474,51 +11527,6 @@
             {
               "Type": "Event",
               "Name": "The Rising (2026)"
-            }
-          ]
-        },
-        {
-          "Id": 858,
-          "Name": "Fight On!",
-          "Description": "Seasonal event reward.",
-          "PatchAdded": 7.55,
-          "DisplayPatch": "7.55",
-          "IconId": 25945,
-          "IconUrl": "https://v2.xivapi.com/api/asset?path=ui%2Ficon%2F025000%2F025945_hr1.tex&format=png",
-          "Sources": [
-            {
-              "Type": "Gold Saucer",
-              "Name": "190 MGC"
-            }
-          ]
-        },
-        {
-          "Id": 857,
-          "Name": "Let the Battles Begin!",
-          "Description": "Seasonal event reward.",
-          "PatchAdded": 7.55,
-          "DisplayPatch": "7.55",
-          "IconId": 25945,
-          "IconUrl": "https://v2.xivapi.com/api/asset?path=ui%2Ficon%2F025000%2F025945_hr1.tex&format=png",
-          "Sources": [
-            {
-              "Type": "Gold Saucer",
-              "Name": "190 MGC"
-            }
-          ]
-        },
-        {
-          "Id": 856,
-          "Name": "Welcome to the Gold Saucer",
-          "Description": "Seasonal event reward.",
-          "PatchAdded": 7.55,
-          "DisplayPatch": "7.55",
-          "IconId": 25945,
-          "IconUrl": "https://v2.xivapi.com/api/asset?path=ui%2Ficon%2F025000%2F025945_hr1.tex&format=png",
-          "Sources": [
-            {
-              "Type": "Gold Saucer",
-              "Name": "190 MGC"
             }
           ]
         },
@@ -12062,7 +12070,7 @@
             },
             {
               "Type": "Treasure Hunt",
-              "Name": "Vault Oneiron"
+              "Name": "尋夢金庫"
             }
           ]
         },
@@ -12531,7 +12539,7 @@
             },
             {
               "Type": "Treasure Hunt",
-              "Name": "Vault Oneiron"
+              "Name": "尋夢金庫"
             }
           ]
         },
@@ -12565,7 +12573,7 @@
             },
             {
               "Type": "Treasure Hunt",
-              "Name": "Vault Oneiron"
+              "Name": "尋夢金庫"
             }
           ]
         },
@@ -12886,8 +12894,8 @@
         },
         {
           "Id": 777,
-          "Name": "Carrots of Passion",
-          "Description": "Available for exchange in cosmic exploration base camps.",
+          "Name": "激情四射胡蘿蔔",
+          "Description": "宇宙探索的各個據點交換",
           "PatchAdded": 7.31,
           "DisplayPatch": "7.31",
           "IconId": 25945,
@@ -12901,8 +12909,8 @@
         },
         {
           "Id": 776,
-          "Name": "Kaleidoscope",
-          "Description": "Obtained from cosmic fortunes on Phaenna.",
+          "Name": "萬花筒",
+          "Description": "行星法恩娜的「宇宙好運道」獲得",
           "PatchAdded": 7.31,
           "DisplayPatch": "7.31",
           "IconId": 25945,
@@ -12917,7 +12925,7 @@
         {
           "Id": 766,
           "Name": "Sarutabaruta",
-          "Description": "Available for exchange in Lower Jeuno.",
+          "Description": "朱諾下層交換",
           "PatchAdded": 7.3,
           "DisplayPatch": "7.3",
           "IconId": 25945,
@@ -12932,7 +12940,7 @@
         {
           "Id": 765,
           "Name": "Gustaberg",
-          "Description": "Available for exchange in Lower Jeuno.",
+          "Description": "朱諾下層交換",
           "PatchAdded": 7.3,
           "DisplayPatch": "7.3",
           "IconId": 25945,
@@ -12947,7 +12955,7 @@
         {
           "Id": 764,
           "Name": "The Big One",
-          "Description": "Available for exchange in Lower Jeuno.",
+          "Description": "朱諾下層交換",
           "PatchAdded": 7.3,
           "DisplayPatch": "7.3",
           "IconId": 25945,
@@ -12962,7 +12970,7 @@
         {
           "Id": 763,
           "Name": "Vana'diel March #2",
-          "Description": "Quest reward.",
+          "Description": "任務報酬",
           "PatchAdded": 7.3,
           "DisplayPatch": "7.3",
           "IconId": 25945,
@@ -12970,14 +12978,14 @@
           "Sources": [
             {
               "Type": "Quest",
-              "Name": "Apocalypse Nigh"
+              "Name": "身處這個世界的你所願為何？"
             }
           ]
         },
         {
           "Id": 762,
           "Name": "Voyager",
-          "Description": "Available for exchange in Lower Jeuno.",
+          "Description": "朱諾下層交換",
           "PatchAdded": 7.3,
           "DisplayPatch": "7.3",
           "IconId": 25945,
@@ -12992,7 +13000,7 @@
         {
           "Id": 761,
           "Name": "Sometime, Somewhere",
-          "Description": "Available for exchange in Lower Jeuno.",
+          "Description": "朱諾下層交換",
           "PatchAdded": 7.3,
           "DisplayPatch": "7.3",
           "IconId": 25945,
@@ -13007,7 +13015,7 @@
         {
           "Id": 760,
           "Name": "Hopelessness",
-          "Description": "Available for exchange in Lower Jeuno.",
+          "Description": "朱諾下層交換",
           "PatchAdded": 7.3,
           "DisplayPatch": "7.3",
           "IconId": 25945,
@@ -13022,7 +13030,7 @@
         {
           "Id": 759,
           "Name": "Jeweled Boughs",
-          "Description": "Available for exchange in Lower Jeuno.",
+          "Description": "朱諾下層交換",
           "PatchAdded": 7.3,
           "DisplayPatch": "7.3",
           "IconId": 25945,
@@ -13037,7 +13045,7 @@
         {
           "Id": 758,
           "Name": "Despair (Memoro de la S^tono)",
-          "Description": "Available for exchange in Lower Jeuno.",
+          "Description": "朱諾下層交換",
           "PatchAdded": 7.3,
           "DisplayPatch": "7.3",
           "IconId": 25945,
@@ -13052,7 +13060,7 @@
         {
           "Id": 757,
           "Name": "Belief",
-          "Description": "Available for exchange in Lower Jeuno.",
+          "Description": "朱諾下層交換",
           "PatchAdded": 7.3,
           "DisplayPatch": "7.3",
           "IconId": 25945,
@@ -13067,7 +13075,7 @@
         {
           "Id": 756,
           "Name": "Eald'narche",
-          "Description": "Available for exchange in Lower Jeuno.",
+          "Description": "朱諾下層交換",
           "PatchAdded": 7.3,
           "DisplayPatch": "7.3",
           "IconId": 25945,
@@ -13082,7 +13090,7 @@
         {
           "Id": 755,
           "Name": "Tough Battle #2",
-          "Description": "Available for exchange in Lower Jeuno.",
+          "Description": "朱諾下層交換",
           "PatchAdded": 7.3,
           "DisplayPatch": "7.3",
           "IconId": 25945,
@@ -13097,7 +13105,7 @@
         {
           "Id": 788,
           "Name": "Hidden Truths",
-          "Description": "Available for exchange in Lower Jeuno.",
+          "Description": "朱諾下層交換",
           "PatchAdded": 7.3,
           "DisplayPatch": "7.3",
           "IconId": 25945,
@@ -13112,7 +13120,7 @@
         {
           "Id": 754,
           "Name": "Tough Battle",
-          "Description": "Available for exchange in Lower Jeuno.",
+          "Description": "朱諾下層交換",
           "PatchAdded": 7.3,
           "DisplayPatch": "7.3",
           "IconId": 25945,
@@ -13127,7 +13135,7 @@
         {
           "Id": 753,
           "Name": "Ronfaure",
-          "Description": "Available for exchange in Lower Jeuno.",
+          "Description": "朱諾下層交換",
           "PatchAdded": 7.3,
           "DisplayPatch": "7.3",
           "IconId": 25945,
@@ -13141,8 +13149,8 @@
         },
         {
           "Id": 769,
-          "Name": "The Promise of Tomorrow",
-          "Description": "Main scenario quest reward.",
+          "Name": "迎向明日的路標",
+          "Description": "任務報酬",
           "PatchAdded": 7.3,
           "DisplayPatch": "7.3",
           "IconId": 25945,
@@ -13150,14 +13158,14 @@
           "Sources": [
             {
               "Type": "Quest",
-              "Name": "The Promise of Tomorrow"
+              "Name": "迎向明日的路標"
             }
           ]
         },
         {
           "Id": 768,
-          "Name": "Etched in Memory",
-          "Description": "Obtained from treasure hunts, Cenote Ja Ja Gural, or Vault Oneiron.",
+          "Name": "銘刻的記憶",
+          "Description": "「加加財富天坑」或「尋夢金庫」獲得",
           "PatchAdded": 7.3,
           "DisplayPatch": "7.3",
           "IconId": 25945,
@@ -13169,14 +13177,14 @@
             },
             {
               "Type": "Treasure Hunt",
-              "Name": "Vault Oneiron"
+              "Name": "尋夢金庫"
             }
           ]
         },
         {
           "Id": 767,
-          "Name": "Coffee Break",
-          "Description": "Obtained from subaquatic voyages.",
+          "Name": "咖啡時間",
+          "Description": "潛水艇探索獲得",
           "PatchAdded": 7.3,
           "DisplayPatch": "7.3",
           "IconId": 25945,
@@ -13190,8 +13198,8 @@
         },
         {
           "Id": 751,
-          "Name": "FINAL FANTASY IX: The Final Battle (Dawntrail)",
-          "Description": "Obtained from a trial in Dawntrail unlocked via the wandering minstrel. ※Drop rates increase when participating at minimum IL.",
+          "Name": "最後之戰（FINAL FANTASY IX） ～黃金～",
+          "Description": "黃金篇主線劇情相關的高難度討伐戰「極？？？？殲滅戰」獲得 （以最低品級參加時可提昇獲得機率）",
           "PatchAdded": 7.3,
           "DisplayPatch": "7.3",
           "IconId": 25945,
@@ -13199,14 +13207,14 @@
           "Sources": [
             {
               "Type": "Trial",
-              "Name": "The Minstrel's Ballad: Necron's Embrace"
+              "Name": "極 永恆黑暗殲滅戰"
             }
           ]
         },
         {
           "Id": 752,
-          "Name": "Remembrance",
-          "Description": "Obtained in the Meso Terminal.",
+          "Name": "追憶往昔",
+          "Description": "「永久幽界中央終端」獲得",
           "PatchAdded": 7.3,
           "DisplayPatch": "7.3",
           "IconId": 25945,
@@ -13214,14 +13222,14 @@
           "Sources": [
             {
               "Type": "Dungeon",
-              "Name": "The Meso Terminal"
+              "Name": "永久幽界中央終端"
             }
           ]
         },
         {
           "Id": 787,
           "Name": "Thunder God Cid's Theme",
-          "Description": "Available for purchase on the online store or via promotional bonuses.",
+          "Description": "道具商城購買或者作為商品附加特典道具獲得",
           "PatchAdded": 7.3,
           "DisplayPatch": "7.3",
           "IconId": 25945,
@@ -13236,7 +13244,7 @@
         {
           "Id": 786,
           "Name": "Brave Story",
-          "Description": "Available for purchase on the online store or via promotional bonuses.",
+          "Description": "道具商城購買或者作為商品附加特典道具獲得",
           "PatchAdded": 7.3,
           "DisplayPatch": "7.3",
           "IconId": 25945,
@@ -13251,7 +13259,7 @@
         {
           "Id": 785,
           "Name": "Party Composition",
-          "Description": "Available for purchase on the online store or via promotional bonuses.",
+          "Description": "道具商城購買或者作為商品附加特典道具獲得",
           "PatchAdded": 7.3,
           "DisplayPatch": "7.3",
           "IconId": 25945,
@@ -13266,7 +13274,7 @@
         {
           "Id": 784,
           "Name": "Memories",
-          "Description": "Available for purchase on the online store or via promotional bonuses.",
+          "Description": "道具商城購買或者作為商品附加特典道具獲得",
           "PatchAdded": 7.3,
           "DisplayPatch": "7.3",
           "IconId": 25945,
@@ -13281,7 +13289,7 @@
         {
           "Id": 783,
           "Name": "Prologue",
-          "Description": "Available for purchase on the online store or via promotional bonuses.",
+          "Description": "道具商城購買或者作為商品附加特典道具獲得",
           "PatchAdded": 7.3,
           "DisplayPatch": "7.3",
           "IconId": 25945,
@@ -13582,7 +13590,7 @@
         {
           "Id": 750,
           "Name": "詼諧的笑談",
-          "Description": "「加加財富天坑」獲得",
+          "Description": "「加加財富天坑」或「尋夢金庫」獲得",
           "PatchAdded": 7.2,
           "DisplayPatch": "7.2",
           "IconId": 25945,
@@ -13594,7 +13602,7 @@
             },
             {
               "Type": "Treasure Hunt",
-              "Name": "Vault Oneiron"
+              "Name": "尋夢金庫"
             }
           ]
         },
@@ -13721,7 +13729,7 @@
         {
           "Id": 722,
           "Name": "為雪林帶來溫暖",
-          "Description": "季節任務報酬",
+          "Description": "季節活動報酬",
           "PatchAdded": 7.11,
           "DisplayPatch": "7.11",
           "IconId": 25945,
@@ -13785,7 +13793,7 @@
         {
           "Id": 724,
           "Name": "暗夜投石",
-          "Description": "尋寶獲得",
+          "Description": "尋寶、「加加財富天坑」或「尋夢金庫」獲得",
           "PatchAdded": 7.1,
           "DisplayPatch": "7.1",
           "IconId": 25945,
@@ -13797,7 +13805,7 @@
             },
             {
               "Type": "Treasure Hunt",
-              "Name": "Vault Oneiron"
+              "Name": "尋夢金庫"
             }
           ]
         },
@@ -14194,7 +14202,7 @@
         {
           "Id": 686,
           "Name": "開路先鋒",
-          "Description": "「加加財富天坑」獲得",
+          "Description": "尋寶獲得",
           "PatchAdded": 7.05,
           "DisplayPatch": "7.05",
           "IconId": 25945,
@@ -14981,6 +14989,10 @@
             {
               "Type": "Gold Saucer",
               "Name": "20,000 MGP (Final Fantasy XVI Collaboration)"
+            },
+            {
+              "Type": "Quest",
+              "Name": "焰影燼途"
             }
           ]
         },
@@ -14996,6 +15008,10 @@
             {
               "Type": "Gold Saucer",
               "Name": "20,000 MGP (Final Fantasy XVI Collaboration)"
+            },
+            {
+              "Type": "Quest",
+              "Name": "焰影燼途"
             }
           ]
         },
@@ -15011,6 +15027,10 @@
             {
               "Type": "Gold Saucer",
               "Name": "20,000 MGP (Final Fantasy XVI Collaboration)"
+            },
+            {
+              "Type": "Quest",
+              "Name": "焰影燼途"
             }
           ]
         },
@@ -15026,6 +15046,10 @@
             {
               "Type": "Gold Saucer",
               "Name": "20,000 MGP (Final Fantasy XVI Collaboration)"
+            },
+            {
+              "Type": "Quest",
+              "Name": "焰影燼途"
             }
           ]
         },
@@ -15041,6 +15065,10 @@
             {
               "Type": "Gold Saucer",
               "Name": "20,000 MGP (Final Fantasy XVI Collaboration)"
+            },
+            {
+              "Type": "Quest",
+              "Name": "焰影燼途"
             }
           ]
         },
@@ -15056,6 +15084,10 @@
             {
               "Type": "Gold Saucer",
               "Name": "20,000 MGP (Final Fantasy XVI Collaboration)"
+            },
+            {
+              "Type": "Quest",
+              "Name": "焰影燼途"
             }
           ]
         },
@@ -15071,6 +15103,10 @@
             {
               "Type": "Gold Saucer",
               "Name": "20,000 MGP (Final Fantasy XVI Collaboration)"
+            },
+            {
+              "Type": "Quest",
+              "Name": "焰影燼途"
             }
           ]
         },
@@ -15086,6 +15122,10 @@
             {
               "Type": "Gold Saucer",
               "Name": "20,000 MGP (Final Fantasy XVI Collaboration)"
+            },
+            {
+              "Type": "Quest",
+              "Name": "焰影燼途"
             }
           ]
         },
@@ -15101,6 +15141,10 @@
             {
               "Type": "Gold Saucer",
               "Name": "20,000 MGP (Final Fantasy XVI Collaboration)"
+            },
+            {
+              "Type": "Quest",
+              "Name": "焰影燼途"
             }
           ]
         },
@@ -15116,6 +15160,10 @@
             {
               "Type": "Gold Saucer",
               "Name": "20,000 MGP (Final Fantasy XVI Collaboration)"
+            },
+            {
+              "Type": "Quest",
+              "Name": "焰影燼途"
             }
           ]
         },
@@ -24061,7 +24109,7 @@
         },
         {
           "Id": 311,
-          "Name": "文明",
+          "Name": "Civilizations",
           "Description": "拉凱提卡大森林交換",
           "PatchAdded": 5,
           "DisplayPatch": "5.0",
@@ -24069,26 +24117,10 @@
           "IconUrl": "https://v2.xivapi.com/api/asset?path=ui%2Ficon%2F025000%2F025945_hr1.tex&format=png",
           "Sources": [
             {
-              "Name": "Unknown Shop: 雙色寶石 x350, ",
-              "Type": "Shop",
-              "Categories": [],
-              "IsLocatable": false,
-              "IconId": 60550,
-              "IconUrl": "https://xivapi.com/i/060000/060550.png",
-              "ShopId": 1769963,
-              "Costs": [
-                {
-                  "ItemId": 26807,
-                  "ItemName": "雙色寶石",
-                  "Amount": 350,
-                  "IconId": 65071,
-                  "IconUrl": "https://xivapi.com/i/065000/065071.png"
-                }
-              ]
+              "Type": "FATE",
+              "Name": "Nacille - Fanow (The Rak'tika Greatwood) - 350 Bicolor Gemstones (Rank 3)"
             }
-          ],
-          "Category": "區域場景2",
-          "CategoryOrder": 8
+          ]
         },
         {
           "Id": 324,
@@ -36530,8 +36562,8 @@
         },
         {
           "Id": 552,
-          "Name": "Hairscape F",
-          "Description": "The realm's premier publication on beauty and fashion, this otherworldly edition of *Modern Aesthetics* covers, in detail, techniques for styling a gravity-defying ponytail reminiscent of Omega-F. May you greet the world in style.\n\nUse to unlock a new hairstyle at the aesthetician.",
+          "Name": "髮型樣式：歐米茄F",
+          "Description": "上面記載著特殊的髮型。\n使用後可在美容師那裡選擇此髮型。",
           "PatchAdded": 7.38,
           "DisplayPatch": "7.38",
           "IconId": 131298,
@@ -36545,8 +36577,8 @@
         },
         {
           "Id": 551,
-          "Name": "Hairscape M",
-          "Description": "The realm's premier publication on beauty and fashion, this otherworldly edition of *Modern Aesthetics* covers, in detail, techniques for molding one's coiffure into gravity-defying locks reminiscent of Omega-M. May you greet the world in style.\n\nUse to unlock a new hairstyle at the aesthetician.",
+          "Name": "髮型樣式：歐米茄M",
+          "Description": "上面記載著特殊的髮型。\n使用後可在美容師那裡選擇此髮型。",
           "PatchAdded": 7.38,
           "DisplayPatch": "7.38",
           "IconId": 131299,
@@ -36690,7 +36722,7 @@
             },
             {
               "Type": "Treasure Hunt",
-              "Name": "Vault Oneiron"
+              "Name": "尋夢金庫"
             }
           ]
         },
@@ -36914,7 +36946,7 @@
           "Sources": [
             {
               "Type": "Premium",
-              "Name": "Online Store - Lyse's Leadership Attire"
+              "Name": "線上商店"
             }
           ]
         },
@@ -37678,7 +37710,7 @@
           "Sources": [
             {
               "Type": "Premium",
-              "Name": "Online Store - Y'shtola's Modish Attire"
+              "Name": "線上商店"
             }
           ]
         },
@@ -37728,7 +37760,7 @@
           "Sources": [
             {
               "Type": "Premium",
-              "Name": "Online Store - Minfilia's Attire"
+              "Name": "線上商店"
             }
           ]
         },
@@ -37893,6 +37925,21 @@
       "OrderKey": 12,
       "Items": [
         {
+          "Id": 60,
+          "Name": "Thick-rimmed Goggles",
+          "Description": "",
+          "PatchAdded": 7.57,
+          "DisplayPatch": "7.57",
+          "IconId": 200721,
+          "IconUrl": "https://v2.xivapi.com/api/asset?path=ui%2Ficon%2F200000%2F200721_hr1.tex&format=png",
+          "Sources": [
+            {
+              "Type": "Gold Saucer",
+              "Name": "Keybound Coffer"
+            }
+          ]
+        },
+        {
           "Id": 61,
           "Name": "Half-rim Spectacles",
           "Description": "",
@@ -37936,16 +37983,6 @@
               "Name": "Kornago Merchant - Bentbranch Meadows - 100 Faded Remnants of Resilience"
             }
           ]
-        },
-        {
-          "Id": 60,
-          "Name": "Thick-rimmed Goggles",
-          "Description": "",
-          "PatchAdded": 7.55,
-          "DisplayPatch": "7.55",
-          "IconId": 200721,
-          "IconUrl": "https://v2.xivapi.com/api/asset?path=ui%2Ficon%2F200000%2F200721_hr1.tex&format=png",
-          "Sources": []
         },
         {
           "Id": 53,
@@ -38223,7 +38260,7 @@
         },
         {
           "Id": 38,
-          "Name": "貓眼讀書眼鏡",
+          "Name": "貓眼框閱讀眼鏡",
           "Description": "",
           "PatchAdded": 7.35,
           "DisplayPatch": "7.35",
@@ -38311,7 +38348,7 @@
             },
             {
               "Type": "Treasure Hunt",
-              "Name": "Vault Oneiron"
+              "Name": "尋夢金庫"
             }
           ]
         },
@@ -38345,7 +38382,7 @@
             },
             {
               "Type": "Treasure Hunt",
-              "Name": "Vault Oneiron"
+              "Name": "尋夢金庫"
             }
           ]
         },
@@ -38477,7 +38514,7 @@
             },
             {
               "Type": "Treasure Hunt",
-              "Name": "Vault Oneiron"
+              "Name": "尋夢金庫"
             }
           ]
         },
@@ -38571,7 +38608,7 @@
             },
             {
               "Type": "Treasure Hunt",
-              "Name": "Vault Oneiron"
+              "Name": "尋夢金庫"
             },
             {
               "Type": "Occult Crescent",
@@ -38594,7 +38631,7 @@
             },
             {
               "Type": "Treasure Hunt",
-              "Name": "Vault Oneiron"
+              "Name": "尋夢金庫"
             },
             {
               "Type": "Occult Crescent",
@@ -1553448,6 +1553485,36 @@
       "OrderKey": 3,
       "Items": [
         {
+          "Id": 327,
+          "Name": "Magitype",
+          "Description": "",
+          "PatchAdded": 7.57,
+          "DisplayPatch": "7.57",
+          "IconId": 246472,
+          "IconUrl": "https://v2.xivapi.com/api/asset?path=ui%2Ficon%2F246000%2F246472_hr1.tex&format=png",
+          "Sources": [
+            {
+              "Type": "Gold Saucer",
+              "Name": "260 MGC"
+            }
+          ]
+        },
+        {
+          "Id": 297,
+          "Name": "Breaking",
+          "Description": "",
+          "PatchAdded": 7.57,
+          "DisplayPatch": "7.57",
+          "IconId": 246453,
+          "IconUrl": "https://v2.xivapi.com/api/asset?path=ui%2Ficon%2F246000%2F246453_hr1.tex&format=png",
+          "Sources": [
+            {
+              "Type": "Premium",
+              "Name": "線上商店"
+            }
+          ]
+        },
+        {
           "Id": 332,
           "Name": "Look Back",
           "Description": "",
@@ -1553478,21 +1553545,6 @@
             {
               "Type": "Quest",
               "Name": "Hero's Day Off"
-            }
-          ]
-        },
-        {
-          "Id": 327,
-          "Name": "Magitype",
-          "Description": "",
-          "PatchAdded": 7.55,
-          "DisplayPatch": "7.55",
-          "IconId": 246472,
-          "IconUrl": "https://v2.xivapi.com/api/asset?path=ui%2Ficon%2F246000%2F246472_hr1.tex&format=png",
-          "Sources": [
-            {
-              "Type": "Gold Saucer",
-              "Name": "260 MGC"
             }
           ]
         },
@@ -1553615,16 +1553667,6 @@
               "Name": "線上商店"
             }
           ]
-        },
-        {
-          "Id": 297,
-          "Name": "Breaking",
-          "Description": "",
-          "PatchAdded": 7.5,
-          "DisplayPatch": "7.5",
-          "IconId": 246453,
-          "IconUrl": "https://v2.xivapi.com/api/asset?path=ui%2Ficon%2F246000%2F246453_hr1.tex&format=png",
-          "Sources": []
         },
         {
           "Id": 313,
@@ -1553763,7 +1553805,7 @@
         },
         {
           "Id": 302,
-          "Name": "Ul'dahn Gulp",
+          "Name": "持續用沙都風格馬克杯喝",
           "Description": "",
           "PatchAdded": 7.4,
           "DisplayPatch": "7.4",
@@ -1553778,7 +1553820,7 @@
         },
         {
           "Id": 301,
-          "Name": "Gridanian Gulp",
+          "Name": "持續用森都風格馬克杯喝",
           "Description": "",
           "PatchAdded": 7.4,
           "DisplayPatch": "7.4",
@@ -1553793,7 +1553835,7 @@
         },
         {
           "Id": 303,
-          "Name": "Lominsan Gulp",
+          "Name": "持續用海都風格馬克杯喝",
           "Description": "",
           "PatchAdded": 7.4,
           "DisplayPatch": "7.4",
@@ -1553823,7 +1553865,7 @@
         },
         {
           "Id": 299,
-          "Name": "Ul'dahn Sip",
+          "Name": "用沙都風格馬克杯喝",
           "Description": "",
           "PatchAdded": 7.4,
           "DisplayPatch": "7.4",
@@ -1553838,7 +1553880,7 @@
         },
         {
           "Id": 298,
-          "Name": "Gridanian Sip",
+          "Name": "用森都風格馬克杯喝",
           "Description": "",
           "PatchAdded": 7.4,
           "DisplayPatch": "7.4",
@@ -1553853,7 +1553895,7 @@
         },
         {
           "Id": 300,
-          "Name": "Lominsan Sip",
+          "Name": "用海都風格馬克杯喝",
           "Description": "",
           "PatchAdded": 7.4,
           "DisplayPatch": "7.4",
@@ -1553943,7 +1553985,7 @@
         },
         {
           "Id": 304,
-          "Name": "Limber Up",
+          "Name": "躍躍欲試",
           "Description": "",
           "PatchAdded": 7.31,
           "DisplayPatch": "7.31",
@@ -1553958,7 +1554000,7 @@
         },
         {
           "Id": 307,
-          "Name": "Pen",
+          "Name": "用羽毛筆記錄",
           "Description": "",
           "PatchAdded": 7.3,
           "DisplayPatch": "7.3",
@@ -1556875,6 +1556917,10 @@
             {
               "Type": "Gold Saucer",
               "Name": "32,000 金碟幣"
+            },
+            {
+              "Type": "Quest",
+              "Name": "A Beacon from Beyond"
             }
           ],
           "CardNumber": 451,
@@ -1556892,6 +1556938,10 @@
             {
               "Type": "Gold Saucer",
               "Name": "24,000 金碟幣"
+            },
+            {
+              "Type": "Quest",
+              "Name": "A Beacon from Beyond"
             }
           ],
           "CardNumber": 450,
@@ -1556909,6 +1556959,10 @@
             {
               "Type": "Gold Saucer",
               "Name": "36,000 金碟幣"
+            },
+            {
+              "Type": "Quest",
+              "Name": "橫貫大陸鐵路的夢想"
             }
           ],
           "CardNumber": 449,
@@ -1557162,8 +1557216,8 @@
         },
         {
           "Id": 450,
-          "Name": "Namingway",
-          "Description": "“Yes, it is I, Namingway! I am ever so glad to see you all awake!”",
+          "Name": "命名威",
+          "Description": "「是我是我就是我！\n漂泊日久，歷盡滄桑，我命名威終於回來啦！！」\n傳說中的流浪者：命名威",
           "PatchAdded": 7.31,
           "DisplayPatch": "7.31",
           "IconId": 87450,
@@ -1557179,8 +1557233,8 @@
         },
         {
           "Id": 449,
-          "Name": "Vacuum Suit",
-          "Description": "Developed to withstand the harsh environs of foreign stars, this mech is powerful enough to destroy crystal and perform other labor-intensive tasks for the Cosmic Exploration Initiative. A number of these units have been simplified and prepared as rewards for contributors.",
+          "Name": "動力裝甲",
+          "Description": "為滿足宇宙探索計畫在異星惡劣環境中正常施工需求而開發的重型工程機械，除了在粉碎水晶等前線工作有活躍表現以外，也有部分機體在移除特殊裝備後，成為了提供給宇宙探索協助者的獎勵。",
           "PatchAdded": 7.31,
           "DisplayPatch": "7.31",
           "IconId": 87449,
@@ -1557196,8 +1557250,8 @@
         },
         {
           "Id": 448,
-          "Name": "Necron",
-          "Description": "This dreadful primal was given form by the collective fear of death experienced by the citizens of Alexandria. The intense terror felt by those suddenly forced to confront the realities of mortal existence─a truth they had long avoided by entrusting their memories of departed loved ones to the cloud─fueled the entity with a dark and inexorable power.",
+          "Name": "永恆黑暗",
+          "Description": "新生亞歷山德里亞聯合王國的國民對於死亡的恐懼凝聚而成的蠻神。將對死者的記憶都收集起來保存到雲端，以此避免離別之苦至今的人們，對死亡所懷抱的恐懼，就是永恆黑暗。",
           "PatchAdded": 7.3,
           "DisplayPatch": "7.3",
           "IconId": 87448,
@@ -1557205,11 +1557259,11 @@
           "Sources": [
             {
               "Type": "Trial",
-              "Name": "The Ageless Necropolis"
+              "Name": "永恆黑暗殲滅戰"
             },
             {
               "Type": "Trial",
-              "Name": "The Minstrel's Ballad: Necron's Embrace"
+              "Name": "極 永恆黑暗殲滅戰"
             }
           ],
           "CardNumber": 432,
@@ -1557218,7 +1557272,7 @@
         {
           "Id": 447,
           "Name": "Eald'narche",
-          "Description": "This echo was formed from the memories of Eald'narche, older brother of Kam'lanaut, who governed Jeuno alongside him in Vana'diel. The eldest prince of the ancient Zilart, he remains undeterred by the passage of ages in his quest to open the Gates of Paradise.",
+          "Description": "以異界瓦納・迪爾的傑出人才「艾爾德納修」的記憶為基礎生成的迴響的殘滓。他的真實身份其實是卡姆拉納特的兄長，古代吉拉特王國的第一王子，為了達成吉拉特人創造「真世界」的夙願曾在暗中策劃了眾多活動。",
           "PatchAdded": 7.3,
           "DisplayPatch": "7.3",
           "IconId": 87447,
@@ -1557226,7 +1557280,7 @@
           "Sources": [
             {
               "Type": "Raid",
-              "Name": "San d'Oria: The Second Walk"
+              "Name": "桑多利亞：第二巡行"
             }
           ],
           "CardNumber": 431,
@@ -1557235,7 +1557289,7 @@
         {
           "Id": 446,
           "Name": "Kam'lanaut",
-          "Description": "This echo was formed from the memories of Kam'lanaut, Archduke of Jeuno in Vana'diel. Though hailed as a hero by the people, he is, in truth, one of the last survivors of an ancient race known as the Zilart.",
+          "Description": "以異界瓦納・迪爾的英雄人物「卡姆拉納特」的記憶為基礎生成的迴響的殘滓。與現代的人類不同，他其實是古代吉拉特人的倖存者，從永恆的沉睡中甦醒後，他便成為管理朱諾大公國的君主。",
           "PatchAdded": 7.3,
           "DisplayPatch": "7.3",
           "IconId": 87446,
@@ -1557243,7 +1557297,7 @@
           "Sources": [
             {
               "Type": "NPC",
-              "Name": "Hume Black Mage"
+              "Name": "休姆族黑魔道士"
             }
           ],
           "CardNumber": 430,
@@ -1557251,8 +1557305,8 @@
         },
         {
           "Id": 445,
-          "Name": "Immortal Remains",
-          "Description": "Calyx created this amalgamation of memories from the recollections stored in the Meso Terminal. Empowered by electrope devices installed in its chamber, this massive entity was able to manifest shared experiences as physical phenomena, and employ them in devastating attacks.",
+          "Name": "某些人的記憶",
+          "Description": "永存院的領導者卡琉克斯收集人們保存在中央終端的記憶，製作出「某些人的記憶」。他借助安置在房內的雷轉質設備，模擬重現出集合的記憶體，將之作為攻擊手段使用。",
           "PatchAdded": 7.3,
           "DisplayPatch": "7.3",
           "IconId": 87445,
@@ -1557260,7 +1557314,7 @@
           "Sources": [
             {
               "Type": "Dungeon",
-              "Name": "The Meso Terminal"
+              "Name": "永久幽界中央終端"
             }
           ],
           "CardNumber": 429,
@@ -1557354,6 +1557408,10 @@
             {
               "Type": "Gold Saucer",
               "Name": "48,000 MGP"
+            },
+            {
+              "Type": "Quest",
+              "Name": "決鬥！九宮幻卡"
             }
           ],
           "CardNumber": 455,
@@ -1557464,6 +1557522,10 @@
             {
               "Type": "Gold Saucer",
               "Name": "60,000 MGP"
+            },
+            {
+              "Type": "Quest",
+              "Name": "前往朱諾"
             }
           ],
           "CardNumber": 419,
@@ -1557583,6 +1557645,10 @@
             {
               "Type": "Gold Saucer",
               "Name": "24,800 MGP"
+            },
+            {
+              "Type": "Quest",
+              "Name": "前往朱諾"
             }
           ],
           "CardNumber": 412,
@@ -1560296,6 +1560362,10 @@
             {
               "Type": "Gold Saucer",
               "Name": "22,400 MGP"
+            },
+            {
+              "Type": "Quest",
+              "Name": "相伴到永遠"
             }
           ],
           "CardNumber": 305,
@@ -1562236,7 +1562306,7 @@
         {
           "Id": 257,
           "Name": "菲奧・烏兒",
-          "Description": "「所以，從現在開始我們就像大樹和樹枝一樣沒有任何隔閡了！\n我就是你的*‘美麗的小樹枝’*，\n你是我的*‘可愛的小樹苗’*！」\n美麗的小樹枝：菲奧・烏兒",
+          "Description": "「所以，從現在開始我們就像大樹和樹枝一樣沒有任何隔閡了！\n我就是你的*『美麗的小樹枝』*，\n你是我的*『可愛的小樹苗』*！」\n美麗的小樹枝：菲奧・烏兒",
           "PatchAdded": 5,
           "DisplayPatch": "5.0",
           "IconId": 87257,
@@ -1562670,6 +1562740,10 @@
             {
               "Type": "Gold Saucer",
               "Name": "96,000 MGP"
+            },
+            {
+              "Type": "Quest",
+              "Name": "紅蓮解放者"
             }
           ],
           "CardNumber": 228,
@@ -1564792,7 +1564866,7 @@
         {
           "Id": 166,
           "Name": "雅・修朵拉（蒼天）",
-          "Description": "「瑪托雅老師一生都在追求‘世界的真理’，\n在這條路上，我一定要比老師走得更遠。」 \n拂曉血盟：雅・修朵拉",
+          "Description": "「瑪托雅一生都在追求『世界的真理』，\n在這條路上，我一定要比老師走得更遠。」 \n拂曉血盟：雅・修朵拉",
           "PatchAdded": 3.4,
           "DisplayPatch": "3.4",
           "IconId": 87166,
@@ -1565589,7 +1565663,7 @@
         {
           "Id": 138,
           "Name": "芙・拉敏",
-          "Description": "「呵呵，孩子真是在不知不覺間就長大了啊。\n那個小小的阿希莉亞竟然變得這麼成熟了……」\n烏爾達哈的明星：芙・拉敏",
+          "Description": "「呵呵，孩子真是在不知不覺間就長大了啊。\n那個小小的艾希莉亞竟然變得這麼成熟了……」\n烏爾達哈的明星：芙・拉敏",
           "PatchAdded": 3.2,
           "DisplayPatch": "3.2",
           "IconId": 87138,
@@ -1570279,7 +1570353,7 @@
         },
         {
           "Id": 103,
-          "Name": "Barding of the Dead",
+          "Name": "死靈裝甲",
           "Description": "",
           "PatchAdded": 7.3,
           "DisplayPatch": "7.3",
@@ -1573233,6 +1573307,66 @@
       "OrderKey": 2,
       "Items": [
         {
+          "Id": 560,
+          "Name": "幻夢",
+          "Description": "召喚出寵物「幻夢」。 為降神祭遠道而來的幼食夢貘，打扮得像綿羊一樣毛茸茸。",
+          "PatchAdded": 7.58,
+          "DisplayPatch": "7.58",
+          "IconId": 4963,
+          "IconUrl": "https://v2.xivapi.com/api/asset?path=ui%2Ficon%2F004000%2F004963_hr1.tex&format=png",
+          "Sources": [
+            {
+              "Type": "Event",
+              "Name": "Heavensturn (2027)"
+            }
+          ]
+        },
+        {
+          "Id": 592,
+          "Name": "Wind-up Barret",
+          "Description": "Summon your wind-up Barret minion. There ain't no gettin' offa this train we on!",
+          "PatchAdded": 7.57,
+          "DisplayPatch": "7.57",
+          "IconId": 4993,
+          "IconUrl": "https://v2.xivapi.com/api/asset?path=ui%2Ficon%2F004000%2F004993_hr1.tex&format=png",
+          "Sources": [
+            {
+              "Type": "Gold Saucer",
+              "Name": "260 MGC"
+            }
+          ]
+        },
+        {
+          "Id": 574,
+          "Name": "Wind-up Vincent",
+          "Description": "Summon your wind-up Vincent. Hopefully not on the verge of committing another sin.",
+          "PatchAdded": 7.57,
+          "DisplayPatch": "7.57",
+          "IconId": 4975,
+          "IconUrl": "https://v2.xivapi.com/api/asset?path=ui%2Ficon%2F004000%2F004975_hr1.tex&format=png",
+          "Sources": [
+            {
+              "Type": "Premium",
+              "Name": "線上商店"
+            }
+          ]
+        },
+        {
+          "Id": 590,
+          "Name": "Wind-up Köttr",
+          "Description": "Summon your wind-up köttr minion. Because you can never have too many bipedal felines.",
+          "PatchAdded": 7.57,
+          "DisplayPatch": "7.57",
+          "IconId": 4991,
+          "IconUrl": "https://v2.xivapi.com/api/asset?path=ui%2Ficon%2F004000%2F004991_hr1.tex&format=png",
+          "Sources": [
+            {
+              "Type": "Premium",
+              "Name": "Evercold  Pre-order"
+            }
+          ]
+        },
+        {
           "Id": 581,
           "Name": "Little Red Viking",
           "Description": "Summon your little red viking minion. Formerly blue and ruthless.",
@@ -1573261,31 +1573395,6 @@
               "Name": "Kornago Merchant - Bentbranch Meadows (Requires Achievement \"Crucible Reforged II\")"
             }
           ]
-        },
-        {
-          "Id": 592,
-          "Name": "Wind-up Barret",
-          "Description": "Summon your wind-up Barret minion. There ain't no gettin' offa this train we on!",
-          "PatchAdded": 7.55,
-          "DisplayPatch": "7.55",
-          "IconId": 4993,
-          "IconUrl": "https://v2.xivapi.com/api/asset?path=ui%2Ficon%2F004000%2F004993_hr1.tex&format=png",
-          "Sources": [
-            {
-              "Type": "Gold Saucer",
-              "Name": "260 MGC"
-            }
-          ]
-        },
-        {
-          "Id": 574,
-          "Name": "Wind-up Vincent",
-          "Description": "Summon your wind-up Vincent. Hopefully not on the verge of committing another sin.",
-          "PatchAdded": 7.55,
-          "DisplayPatch": "7.55",
-          "IconId": 4975,
-          "IconUrl": "https://v2.xivapi.com/api/asset?path=ui%2Ficon%2F004000%2F004975_hr1.tex&format=png",
-          "Sources": []
         },
         {
           "Id": 586,
@@ -1573331,16 +1573440,6 @@
               "Name": "The Rising (2026)"
             }
           ]
-        },
-        {
-          "Id": 590,
-          "Name": "Wind-up Köttr",
-          "Description": "Summon your wind-up köttr minion. Because you can never have too many bipedal felines.",
-          "PatchAdded": 7.55,
-          "DisplayPatch": "7.55",
-          "IconId": 4991,
-          "IconUrl": "https://v2.xivapi.com/api/asset?path=ui%2Ficon%2F004000%2F004991_hr1.tex&format=png",
-          "Sources": []
         },
         {
           "Id": 593,
@@ -1573774,8 +1573873,8 @@
         },
         {
           "Id": 553,
-          "Name": "Model Suit",
-          "Description": "Summon your model suit minion. Comes complete with pocket-sized pilot.",
+          "Name": "無動力裝甲",
+          "Description": "召喚新寵物「無動力裝甲」。 動力裝甲的模型小玩具，上面還坐著被選中的駕駛員。",
           "PatchAdded": 7.31,
           "DisplayPatch": "7.31",
           "IconId": 4956,
@@ -1573789,8 +1573888,8 @@
         },
         {
           "Id": 556,
-          "Name": "Falcon-blue Gobtank",
-          "Description": "Summon your falcon-blue gobtank. Stronger than the red one.",
+          "Name": "發條藍色哥布林坦克",
+          "Description": "召喚新寵物「發條藍色哥布林坦克」。 演習用哥布林式戰車的合金模型，塗成了象徵堅韌的藍色。",
           "PatchAdded": 7.3,
           "DisplayPatch": "7.3",
           "IconId": 4959,
@@ -1573804,8 +1573903,8 @@
         },
         {
           "Id": 555,
-          "Name": "Raven-red Gobtank",
-          "Description": "Summon your raven-red gobtank. Faster than the blue one.",
+          "Name": "發條紅色哥布林坦克",
+          "Description": "召喚新寵物「發條紅色哥布林坦克」。 演習用哥布林式戰車的合金模型，塗成了象徵迅捷的紅色。",
           "PatchAdded": 7.3,
           "DisplayPatch": "7.3",
           "IconId": 4958,
@@ -1573819,8 +1573918,8 @@
         },
         {
           "Id": 546,
-          "Name": "Wind-up Gulool Ja Ja",
-          "Description": "Summon your Gulool Ja Ja minion. It watches your progress with great interest.",
+          "Name": "迷你古魯加加",
+          "Description": "召喚新寵物「迷你古魯加加」。 以聯王古魯加加為原型製作的魔法人偶。讓我看看最後是誰來繼承我的王位！",
           "PatchAdded": 7.3,
           "DisplayPatch": "7.3",
           "IconId": 4945,
@@ -1573838,8 +1573937,8 @@
         },
         {
           "Id": 561,
-          "Name": "Micro Crow",
-          "Description": "Summon your micro crow minion. Clever and loyal─what more could one ask for?",
+          "Name": "小烏鴉",
+          "Description": "召喚新寵物「小烏鴉」。 在某研究設施中養大的烏鴉，聰明又仗義。",
           "PatchAdded": 7.3,
           "DisplayPatch": "7.3",
           "IconId": 4964,
@@ -1573847,14 +1573946,14 @@
           "Sources": [
             {
               "Type": "Dungeon",
-              "Name": "The Meso Terminal"
+              "Name": "永久幽界中央終端"
             }
           ]
         },
         {
           "Id": 563,
-          "Name": "Sunray Ray",
-          "Description": "Summon your sunray ray minion. Its eyes are up here.",
+          "Name": "魟魟",
+          "Description": "召喚新寵物「魟魟」。 優雅地在海峽中游動的可愛魟魚。兩隻眼睛都在上方。",
           "PatchAdded": 7.3,
           "DisplayPatch": "7.3",
           "IconId": 4966,
@@ -1573868,8 +1573967,8 @@
         },
         {
           "Id": 543,
-          "Name": "Boon Baboon",
-          "Description": "Summon your boon baboon minion. May sound like a generous creature, but don't expect any favors.",
+          "Name": "斗篷狒狒",
+          "Description": "召喚出寵物「斗篷狒狒」。 一種猿類，特徵為覆蓋著如同斗篷一般的長毛。毛茸茸的看起來很熱。",
           "PatchAdded": 7.3,
           "DisplayPatch": "7.3",
           "IconId": 4942,
@@ -1573883,8 +1573982,8 @@
         },
         {
           "Id": 557,
-          "Name": "Wind-up Eald'narche",
-          "Description": "Summon your wind-up Eald'narche minion. After ten long millennia, the dreams of the Zilart will become reality!",
+          "Name": "迷你艾爾德納修",
+          "Description": "召喚新寵物「迷你艾爾德納修」。 艾爾德納修的小型化身。你們將會死在這裡！",
           "PatchAdded": 7.3,
           "DisplayPatch": "7.3",
           "IconId": 4960,
@@ -1573892,14 +1573991,14 @@
           "Sources": [
             {
               "Type": "Raid",
-              "Name": "San d'Oria: The Second Walk"
+              "Name": "桑多利亞：第二巡行"
             }
           ]
         },
         {
           "Id": 565,
-          "Name": "Gimme Kitten",
-          "Description": "Summon your gimme kitten minion. An ill-mannered winged feline fiend that wants everything.",
+          "Name": "索取喵",
+          "Description": "召喚新寵物「索取喵」。 長翅膀的小貓魔物。看到什麼都想拿走。",
           "PatchAdded": 7.3,
           "DisplayPatch": "7.3",
           "IconId": 4947,
@@ -1573907,14 +1574006,14 @@
           "Sources": [
             {
               "Type": "Treasure Hunt",
-              "Name": "Vault Oneiron"
+              "Name": "尋夢金庫"
             }
           ]
         },
         {
           "Id": 564,
-          "Name": "Mini Yan",
-          "Description": "Summon your mini yan minion. A sheep spirit whose child-pleasing form and diminutive size belie its might.",
+          "Name": "小小羊",
+          "Description": "召喚新寵物「小小羊」。 誕生於異界的小精靈羊。身材雖小，卻不容小覷。",
           "PatchAdded": 7.3,
           "DisplayPatch": "7.3",
           "IconId": 4946,
@@ -1573922,14 +1574021,14 @@
           "Sources": [
             {
               "Type": "Treasure Hunt",
-              "Name": "Vault Oneiron"
+              "Name": "尋夢金庫"
             }
           ]
         },
         {
           "Id": 558,
-          "Name": "Rroneek Calf",
-          "Description": "Summon your rroneek calf minion. Has tusks and horns and isn't afraid to use them.",
+          "Name": "犎牛寶寶",
+          "Description": "召喚新寵物「犎牛寶寶」。 身體雖小，但牛角可不鈍。",
           "PatchAdded": 7.3,
           "DisplayPatch": "7.3",
           "IconId": 4961,
@@ -1574142,7 +1574241,7 @@
             },
             {
               "Type": "Treasure Hunt",
-              "Name": "Vault Oneiron"
+              "Name": "尋夢金庫"
             }
           ]
         },
@@ -1592038,6 +1592137,19 @@
       "OrderKey": 10,
       "Items": [
         {
+          "Id": 1101,
+          "Name": "Keybound Brawler Framer's Kit",
+          "Description": "Tools for enhancing portraits and adventurer plates. Use to unlock embellishments fit for a master of all things magitype.\nIncludes Portrait Elements: Background, Frame, Accent\nIncludes Plate Elements: Base Plate, Backing, Top Border, Plate Frame, Accent",
+          "PatchAdded": 7.57,
+          "DisplayPatch": "7.57",
+          "IconId": 26625,
+          "IconUrl": "https://v2.xivapi.com/api/asset?path=ui%2Ficon%2F026000%2F026625_hr1.tex&format=png",
+          "Sources": [],
+          "FrameId": 1101,
+          "FrameImage": "https://ffxivcollect.com/images/frames/1101.png",
+          "FrameImageFlipped": "https://ffxivcollect.com/images/frames/1101_2.png"
+        },
+        {
           "Id": 1133,
           "Name": "Beastmaster (Simple)",
           "Description": null,
@@ -1592114,19 +1592226,6 @@
           "FrameId": 1100,
           "FrameImage": "https://ffxivcollect.com/images/frames/1100.png",
           "FrameImageFlipped": "https://ffxivcollect.com/images/frames/1100_2.png"
-        },
-        {
-          "Id": 1101,
-          "Name": "Keybound Brawler Framer's Kit",
-          "Description": "Tools for enhancing portraits and adventurer plates. Use to unlock embellishments fit for a master of all things magitype.\nIncludes Portrait Elements: Background, Frame, Accent\nIncludes Plate Elements: Base Plate, Backing, Top Border, Plate Frame, Accent",
-          "PatchAdded": 7.55,
-          "DisplayPatch": "7.55",
-          "IconId": 26625,
-          "IconUrl": "https://v2.xivapi.com/api/asset?path=ui%2Ficon%2F026000%2F026625_hr1.tex&format=png",
-          "Sources": [],
-          "FrameId": 1101,
-          "FrameImage": "https://ffxivcollect.com/images/frames/1101.png",
-          "FrameImageFlipped": "https://ffxivcollect.com/images/frames/1101_2.png"
         },
         {
           "Id": 1099,
@@ -1593287,8 +1593386,8 @@
         },
         {
           "Id": 940,
-          "Name": "Cosmic Constructs Framer's Kit",
-          "Description": "Tools for enhancing portraits and adventurer plates. Use to unlock embellishments fit for a voyager of the vast cosmos.\nIncludes Portrait Elements: Background, Frame, Accent\nIncludes Plate Elements: Base Plate, Backing, Top Border, Plate Frame, Accent",
+          "Name": "肖像教材：宇宙探索2",
+          "Description": "拓展表現手法的藝術教材。\n使用後可習得背景、裝飾框、裝飾物等特定的肖像設計樣式，\n及底色、背襯、頂部裝飾、外框、裝飾物等銘牌設計樣式。",
           "PatchAdded": 7.31,
           "DisplayPatch": "7.31",
           "IconId": 26625,
@@ -1593300,8 +1593399,8 @@
         },
         {
           "Id": 939,
-          "Name": "Island Days Framer's Kit",
-          "Description": "Tools for enhancing portraits and adventurer plates. Use to unlock embellishments fit for an industrious islander.\nIncludes Portrait Elements: Background, Frame\nIncludes Plate Elements: Base Plate, Top Border, Bottom Border, Portrait Frame, Plate Frame, Accent",
+          "Name": "肖像教材：海島時光",
+          "Description": "拓展表現手法的藝術教材。\n使用後可習得背景、裝飾框等特定的肖像設計樣式，\n及底色、頂部裝飾、底部裝飾、肖像外框、銘牌外框、裝飾物等銘牌設計樣式。",
           "PatchAdded": 7.3,
           "DisplayPatch": "7.3",
           "IconId": 26625,
@@ -1593313,8 +1593412,8 @@
         },
         {
           "Id": 916,
-          "Name": "Hidden Gorge Framer's Kit",
-          "Description": "Tools for enhancing a portrait. Use to unlock embellishments fit for those who have seized victory at Hidden Gorge.\n[Includes: Background/Frame/Accent]",
+          "Name": "肖像教材：隱塞",
+          "Description": "拓展表現手法的藝術教材。\n使用後可習得背景、裝飾框、裝飾物等\n特定的肖像設計樣式。",
           "PatchAdded": 7.3,
           "DisplayPatch": "7.3",
           "IconId": 26625,
@@ -1593326,8 +1593425,8 @@
         },
         {
           "Id": 917,
-          "Name": "Borderland Ruins (Secure) Framer's Kit",
-          "Description": "Tools for enhancing a portrait. Use to unlock embellishments fit for those who have secured the Borderland Ruins.\n[Includes: Background/Frame/Accent]",
+          "Name": "肖像教材：周邊遺跡群（陣地戰）",
+          "Description": "拓展表現手法的藝術教材。\n使用後可習得背景、裝飾框、裝飾物等\n特定的肖像設計樣式。",
           "PatchAdded": 7.3,
           "DisplayPatch": "7.3",
           "IconId": 26625,
@@ -1593339,7 +1593438,7 @@
         },
         {
           "Id": 918,
-          "Name": "Final Conflict 15",
+          "Name": "第15賽季水晶衝突：王者",
           "Description": null,
           "PatchAdded": 7.3,
           "DisplayPatch": "7.3",
@@ -1593352,7 +1593451,7 @@
         },
         {
           "Id": 919,
-          "Name": "Endless Conflict 15",
+          "Name": "第15賽季水晶衝突：勇者",
           "Description": null,
           "PatchAdded": 7.3,
           "DisplayPatch": "7.3",
@@ -1593365,7 +1593464,7 @@
         },
         {
           "Id": 920,
-          "Name": "Rising Conflict 15",
+          "Name": "第15賽季水晶衝突：獲獎者",
           "Description": null,
           "PatchAdded": 7.3,
           "DisplayPatch": "7.3",
@@ -1593378,7 +1593477,7 @@
         },
         {
           "Id": 921,
-          "Name": "Crystal Conflict 15",
+          "Name": "第15賽季水晶衝突：水晶",
           "Description": null,
           "PatchAdded": 7.3,
           "DisplayPatch": "7.3",
@@ -1593391,7 +1593490,7 @@
         },
         {
           "Id": 922,
-          "Name": "Diamond Conflict 15",
+          "Name": "第15賽季水晶衝突：鑽石",
           "Description": null,
           "PatchAdded": 7.3,
           "DisplayPatch": "7.3",
@@ -1593404,7 +1593503,7 @@
         },
         {
           "Id": 923,
-          "Name": "Platinum Conflict 15",
+          "Name": "第15賽季水晶衝突：白金",
           "Description": null,
           "PatchAdded": 7.3,
           "DisplayPatch": "7.3",
@@ -1593417,7 +1593516,7 @@
         },
         {
           "Id": 924,
-          "Name": "Gold Conflict 15",
+          "Name": "第15賽季水晶衝突：黃金",
           "Description": null,
           "PatchAdded": 7.3,
           "DisplayPatch": "7.3",
@@ -1593430,7 +1593529,7 @@
         },
         {
           "Id": 925,
-          "Name": "Silver Conflict 15",
+          "Name": "第15賽季水晶衝突：白銀",
           "Description": null,
           "PatchAdded": 7.3,
           "DisplayPatch": "7.3",
@@ -1593443,7 +1593542,7 @@
         },
         {
           "Id": 926,
-          "Name": "Bronze Conflict 15",
+          "Name": "第15賽季水晶衝突：青銅",
           "Description": null,
           "PatchAdded": 7.3,
           "DisplayPatch": "7.3",
@@ -1593456,7 +1593555,7 @@
         },
         {
           "Id": 927,
-          "Name": "Final Conflict 16",
+          "Name": "第16賽季水晶衝突：王者",
           "Description": null,
           "PatchAdded": 7.3,
           "DisplayPatch": "7.3",
@@ -1593469,7 +1593568,7 @@
         },
         {
           "Id": 928,
-          "Name": "Endless Conflict 16",
+          "Name": "第16賽季水晶衝突：勇者",
           "Description": null,
           "PatchAdded": 7.3,
           "DisplayPatch": "7.3",
@@ -1593482,7 +1593581,7 @@
         },
         {
           "Id": 929,
-          "Name": "Rising Conflict 16",
+          "Name": "第16賽季水晶衝突：獲獎者",
           "Description": null,
           "PatchAdded": 7.3,
           "DisplayPatch": "7.3",
@@ -1593495,7 +1593594,7 @@
         },
         {
           "Id": 930,
-          "Name": "Ultima Conflict 16",
+          "Name": "第16賽季水晶衝突：究極",
           "Description": null,
           "PatchAdded": 7.3,
           "DisplayPatch": "7.3",
@@ -1593508,7 +1593607,7 @@
         },
         {
           "Id": 931,
-          "Name": "Omega Conflict 16",
+          "Name": "第16賽季水晶衝突：歐米茄",
           "Description": null,
           "PatchAdded": 7.3,
           "DisplayPatch": "7.3",
@@ -1593521,7 +1593620,7 @@
         },
         {
           "Id": 932,
-          "Name": "Crystal Conflict 16",
+          "Name": "第16賽季水晶衝突：水晶",
           "Description": null,
           "PatchAdded": 7.3,
           "DisplayPatch": "7.3",
@@ -1593534,7 +1593633,7 @@
         },
         {
           "Id": 933,
-          "Name": "Diamond Conflict 16",
+          "Name": "第16賽季水晶衝突：鑽石",
           "Description": null,
           "PatchAdded": 7.3,
           "DisplayPatch": "7.3",
@@ -1593547,7 +1593646,7 @@
         },
         {
           "Id": 934,
-          "Name": "Platinum Conflict 16",
+          "Name": "第16賽季水晶衝突：白金",
           "Description": null,
           "PatchAdded": 7.3,
           "DisplayPatch": "7.3",
@@ -1593560,7 +1593659,7 @@
         },
         {
           "Id": 935,
-          "Name": "Gold Conflict 16",
+          "Name": "第16賽季水晶衝突：黃金",
           "Description": null,
           "PatchAdded": 7.3,
           "DisplayPatch": "7.3",
@@ -1593573,7 +1593672,7 @@
         },
         {
           "Id": 936,
-          "Name": "Silver Conflict 16",
+          "Name": "第16賽季水晶衝突：白銀",
           "Description": null,
           "PatchAdded": 7.3,
           "DisplayPatch": "7.3",
@@ -1593586,7 +1593685,7 @@
         },
         {
           "Id": 937,
-          "Name": "Bronze Conflict 16",
+          "Name": "第16賽季水晶衝突：青銅",
           "Description": null,
           "PatchAdded": 7.3,
           "DisplayPatch": "7.3",
